@@ -19,9 +19,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @NgModule({
-  declarations: [
-
-  ],
+  declarations: [],
   imports: [
     CommonModule,
     MatButtonModule,
@@ -39,7 +37,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     MatDialogModule,
     MatSelectModule,
     MatProgressSpinnerModule,
-    MatProgressBarModule
+    MatProgressBarModule,
   ],
   exports: [
     MatButtonModule,
@@ -57,8 +55,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     MatDialogModule,
     MatSelectModule,
     MatProgressSpinnerModule,
-    MatProgressBarModule
-  ]
-
+    MatProgressBarModule,
+  ],
 })
-export class MaterialModule { }
+export class MaterialModule {}

@@ -14,16 +14,16 @@ import { PersonalComponent } from './personal/personal.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PersonalComponent
+    PersonalComponent,
   ],
   imports: [
     BrowserModule,
     MaterialModule,
     BrowserAnimationsModule,
 
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
